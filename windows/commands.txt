@@ -1,0 +1,26 @@
+whoami /all
+systeminfo
+ipconfig /all
+net user
+net localgroup administrators
+net share
+tasklist /svc
+dir "%PROGRAMFILES%"
+dir "%PROGRAMFILES(x86)%"
+dir d:\
+dir c:\
+dir "%ONEDRIVE"
+dir "%HOMEPATH%"
+set
+powershell -c "$PSVERSIONTABLE"
+type C:\Windows\System32\Drivers\etc\hosts
+powershell -c Get-IISAppPool
+wmic useraccount get * /format:list
+wmic product get name /value
+wmic /namespace:\\root\securitycenter2 path antivirusproduct get displayname /format:list
+powershell -c "Invoke-Sqlcmd -Query 'select @@version' -sqlserver 127.0.0.1 -user sa -pass sa"
+dir /b /s unattend.xml
+dir /b /s web.config
+dir /b /s sysprep.inf
+dir /b /s sysprep.xml
+dir /b /s vnc.ini
