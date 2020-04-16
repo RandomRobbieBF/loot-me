@@ -1,12 +1,15 @@
 #!/bin/bash
 for files in `cat files.txt`; do
-        echo.
+        echo
         echo "<details><summary^>$files</summary>"
         echo "```"
-        cat $files
+        FILE=$files
+        if test -f "$FILE"; then
+                echo "$FILE exist"
+        fi
         echo "```"
         echo "</details>"
-        echo.
-        echo.
+        echo
+        echo
 
 done
