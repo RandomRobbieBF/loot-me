@@ -1,15 +1,16 @@
 #!/bin/bash
-for files in `cat files.txt`; do
-        echo
-        echo "<details><summary^>$files</summary>"
-        echo "```"
-        FILE=$files
-        if test -f "$FILE"; then
-                cat $FILE
-        fi
-        echo "```"
+for f in `cat files.txt`; do
+	if [ -f $f ]; then
+		echo ""
+        echo "<details><summary>$f</summary>"
+        echo "\`\`\`"
+    	cat $f
+    	echo "\`\`\`"
         echo "</details>"
-        echo
-        echo
-
+        echo ""
+        echo ""	
+    else
+    	echo "asd" > /dev/null
+    fi
+	
 done
