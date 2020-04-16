@@ -5,7 +5,7 @@ for files in `cat files.txt`; do
         echo "```"
         FILE=$files
         if test -f "$FILE"; then
-                echo "$FILE exist"
+                cat $FILE
         fi
         echo "```"
         echo "</details>"
