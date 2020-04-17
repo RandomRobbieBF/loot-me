@@ -235,3 +235,5 @@
 ~/.xinitrc
 ~/.Xresources
 ~/.xsession
+~/.github/workflows/docker.yml
+~/.github/workflows/nodejs.yml
