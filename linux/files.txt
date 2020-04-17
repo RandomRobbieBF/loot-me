@@ -215,11 +215,16 @@
 ~/.bashrc
 ~/.gtkrc
 ~/.login
+~/.env
 ~/.logout
 ~/.mysql_history
 ~/.nano_history
 ~/.php_history
+~/.psql_history
+~/sqlite_history
+~/.travis/config.yml
 ~/.pip/pip.conf
+~/.lanproxy/config.json
 ~/.profile
 ~/.pypirc
 ~/.ssh/authorized_keys
@@ -237,3 +242,4 @@
 ~/.xsession
 ~/.github/workflows/docker.yml
 ~/.github/workflows/nodejs.yml
+~/.jupyter/jupyter_notebook_config.json
