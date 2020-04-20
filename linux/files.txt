@@ -196,8 +196,6 @@
 /var/log/secure
 /var/log/vsftpd.log
 /var/log/wtmp
-/var/log/xferlog
-/var/log/yum.log
 /var/mysql.log
 /var/run/utmp
 /var/spool/cron/crontabs/root
@@ -245,3 +243,7 @@
 ~/.jupyter/jupyter_notebook_config.json
 ~/.docker/config.json
 ~/.s3cfg
+~/.gdrive/token_v2.json
+~/.ssh/google_compute_engine
+~/.ssh/google_compute_engine.pub
+~/.ssh/config
