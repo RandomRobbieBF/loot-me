@@ -243,3 +243,5 @@
 ~/.github/workflows/docker.yml
 ~/.github/workflows/nodejs.yml
 ~/.jupyter/jupyter_notebook_config.json
+~/.docker/config.json
+~/.s3cfg
