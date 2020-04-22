@@ -4,6 +4,11 @@ ipconfig /all
 net user
 net localgroup administrators
 net share
+nltest /domain_trusts /all_trusts
+net view /all /domain
+net view /all
+net config workstation
+nltest /domain_trusts
 tasklist /svc
 dir "%PROGRAMFILES%"
 dir "%PROGRAMFILES(x86)%"
