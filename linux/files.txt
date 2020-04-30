@@ -202,6 +202,8 @@
 /var/mysql.log
 /var/run/utmp
 /var/run/secrets/eks.amazonaws.com/serviceaccount/token
+/var/run/secrets/kubernetes.io/serviceaccount
+/var/lib/kube-proxy-config/config
 /var/spool/cron/crontabs/root
 /var/webmin/miniserv.log
 /var/www/log/access_log
