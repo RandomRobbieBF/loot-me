@@ -201,6 +201,7 @@
 /var/log/wtmp
 /var/mysql.log
 /var/run/utmp
+/var/run/secrets/eks.amazonaws.com/serviceaccount/token
 /var/spool/cron/crontabs/root
 /var/webmin/miniserv.log
 /var/www/log/access_log
