@@ -177,6 +177,11 @@
 /var/log/httpd/error.log
 /var/log/httpsd/ssl_log
 /var/log/httpsd/ssl.access_log
+/var/log/installer/autoinstall-user-data
+/var/log/installer/curtin-install-cfg.yaml 
+/var/log/installer/curtin-install.log 
+/var/log/installer/installer-journal.txt 
+/var/log/installer/subiquity-curtin-install.conf 
 /var/log/kern.log
 /var/log/lastlog
 /var/log/lighttpd/access.log
